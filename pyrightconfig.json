@@ -1,0 +1,14 @@
+{
+  "include": [
+    "src",
+    "data",
+    "notebooks"
+  ],
+  "extraPaths": [
+    "src",
+    "data/RAVDESS/src",
+    "data/RAVDESS/data",
+    "C:/Users/kenis/AppData/Local/Programs/Python/Python314/Lib/site-packages",
+    "C:/New folder/Lib/site-packages"
+  ]
+}
