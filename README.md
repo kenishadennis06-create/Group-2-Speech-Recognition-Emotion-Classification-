@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning Final Lab - Group 02
 
 Welcome to the **ML Final Lab - Group 02** project repository. This project contains the complete end-to-end machine learning pipeline, exploratory analysis, models, reporting, dashboard assets, and client presentation.
@@ -104,3 +105,6 @@ jupyter notebook notebooks/ML_Project.ipynb
 - [ ] **Power BI Dashboard**: Dashboard finalized in `dashboard/Project_Dashboard.pbix`
 - [ ] **Final Report**: Academic & technical report exported to `report/Project_Report.pdf`
 - [ ] **Client Pitch**: Pitch deck finalized in `presentation/Client_Pitch.pptx`
+=======
+# Group-2-Speech-Recognition-Emotion-Classification-
+>>>>>>> origin/main
