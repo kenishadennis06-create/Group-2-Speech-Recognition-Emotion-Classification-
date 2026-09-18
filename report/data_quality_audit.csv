@@ -1,20 +1,2 @@
-Check,Result
-Expected audio files,1440
-Audio files found,1440
-Readable audio files,1440
-Unreadable audio files,0
-Sampling rate,16 kHz
-Number of actors,24
-Number of emotion classes,8
-Missing metadata values,0
-Duplicate filenames,0
-Duplicate file paths,0
-Training files,1140
-Testing files,300
-Actor overlap between train/test,0
-Training missing feature values,0
-Testing missing feature values,0
-Training infinite feature values,0
-Testing infinite feature values,0
-Training duplicate feature rows,0
-Testing duplicate feature rows,0
+total_discovered_files,actor_directories_found,valid_metadata_records,corrupted_files,duplicate_filenames,duplicate_filepaths,duration_outliers,train_samples,test_samples,train_actor_count,test_actor_count,actor_overlap_count,leakage_status
+1440,24,1440,0,0,0,0,1140,300,19,5,0,PASSED

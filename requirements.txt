@@ -1,20 +1,10 @@
-# Core scientific and data analysis libraries
-numpy>=1.24.0
+# Core Data Engineering Dependencies
 pandas>=2.0.0
-scipy>=1.10.0
+numpy>=1.24.0
 librosa>=0.10.0
 soundfile>=0.12.0
-
-
-# Machine learning & evaluation
 scikit-learn>=1.3.0
-joblib>=1.3.0
 
-# Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
-
-# Interactive notebooks
+# Notebook Environment
 jupyter>=1.0.0
 ipykernel>=6.25.0
-notebook>=7.0.0

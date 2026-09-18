@@ -1,0 +1,29 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Compressed Archives
+*.zip
+*.tar.gz
+*.rar
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
