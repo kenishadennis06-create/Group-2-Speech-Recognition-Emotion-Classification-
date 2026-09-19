@@ -9,9 +9,9 @@ Welcome to the **Group 02 (G2)** machine learning project repository for **Speec
 - **Project:** Speech Emotion Classification using RAVDESS
 - **Client / Domain:** CallConnect Speech / Customer Support
 - **Dataset:** RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
-- **Primary Metrics:** Classification Accuracy & Confusion Matrix
-- **Current Stage:** **Data Engineering Stage**
-- **Team Member Responsible:** Kenisha (Data Engineer)
+- **Primary Metrics:** Classification Accuracy & Confusion Matrix (Macro-F1)
+- **Current Stage:** **Data Analysis (DA) Stage Completed**
+- **Team Roles:** Kenisha (Data Engineer), Data Analyst (DA Stage Completed)
 
 ---
 
@@ -31,19 +31,35 @@ Group-2-Speech-Recognition-Emotion-Classification/
 │   └── processed/
 │       ├── dataset_metadata.csv
 │       ├── train_metadata.csv
-│       └── test_metadata.csv
+│       ├── test_metadata.csv
+│       ├── train_features.csv
+│       └── test_features.csv
 │
 ├── report/
 │   ├── audio_quality.csv
 │   ├── corrupted_files.csv
 │   ├── data_quality_audit.csv
-│   └── dataset_documentation.docx
+│   ├── dataset_documentation.docx
+│   ├── data_analysis_report.pdf
+│   └── figures/
+│       ├── fig01_emotion_distribution.png
+│       ├── fig02_emotion_percentage_donut.png
+│       ├── fig03_actor_distribution.png
+│       ├── fig04_duration_histogram.png
+│       ├── fig05_duration_boxplot.png
+│       ├── fig06_duration_by_emotion.png
+│       ├── fig07_sample_rate_distribution.png
+│       ├── fig08_channel_distribution.png
+│       ├── fig09_actor_emotion_heatmap.png
+│       ├── fig10_duration_by_intensity.png
+│       └── fig11_train_test_split_gender.png
 │
 ├── src/
 │   └── data_pipeline.py
 │
 ├── notebooks/
-│   └── 01_Data_Engineering.ipynb
+│   ├── 01_Data_Engineering.ipynb
+│   └── 02_Data_Analysis.ipynb
 │
 ├── presentation/
 │   └── Client_Pitch.pptx
@@ -53,7 +69,7 @@ Group-2-Speech-Recognition-Emotion-Classification/
 └── .gitignore
 ```
 
-> **Note:** Downstream components (`models/`, `dashboard/`, `src/model.py`, `src/preprocessing.py`, `src/predict.py`, etc.) will be added in subsequent stages by their respective team members (Data Analyst, Data Scientist, ML Engineer, Analytics Engineer, and BI Developer).
+> **Note:** Downstream components (`models/`, `dashboard/`, `src/model.py`, `src/preprocessing.py`, `src/predict.py`, etc.) will be added in subsequent stages by their respective team members (Data Scientist, ML Engineer, Analytics Engineer, and BI Developer).
 
 ---
 
